@@ -1,0 +1,16 @@
+Ques 1) Explain the usage of ternary operator with syntax.
+Ans) The ternary operator is a shorthand way to write simple conditional statements.
+Syntax:-
+condition? expr1 :expr2
+
+condition: a boolean expression that is evaluated.
+expr1:the value to return if the condition is true.
+expr2: the value to return if the condition is false.
+
+
+Ques2) Describe the usage of the comma operator in JavaScript and provide an example.
+Ans) The comma operator allows you to evaluate multiple expressions(from left to right), returing the result of the last 
+expression.
+exp) let x=1;
+(x++, x+=2, x*=3);
+console.log(x); //output: 12
